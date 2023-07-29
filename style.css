@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+.container {
+    min-width: 260px;
+    max-width: 3840px;
+    margin: auto;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #1E1E1E;
+}
+/* ----------HEADER---------- */
+header {
+    height: 151px;
+    width: auto;
+}
+/* ----------HEADER-top---------- */
+.header__top {
+    height: 70px;
+    color: rgba(255, 255, 255, 0.80);
+    display: flex;
+    justify-content: space-between;
+}
+.support {
+    display: flex;
+}
+.icon__support {
+    height: 50px;
+    width: 50px;
+    margin-top: 11px;
+    margin-left: 100px;
+}
+.number__city {
+    margin-left: 22px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.number {
+    margin-top: 11px;
+}
+.city {
+
+}
+.social__network {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+.youtube {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+.telegram {
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+.vk {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+}
+.header__line {
+    background-color: rgba(0, 102, 255, 1);
+    height: 1px;
+    width: auto;
+}
+/* ----------HEADER-navigation---------- */
+.header__navigation {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 151px;
+}
+.navigation__menu {
+    width: 829px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.computer__block_list {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+}
+.computer__text {
+    
+}
+.arrow__drop_down {
+    margin-left: -1px;
+}
+.periphery {
+    font-size: 28px;
+    font-weight: 600;
+}
+.about__block_list {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+}
+.about__text {
+
+}
+.supports__block_list {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+}
+.supports__text {
+
+}
+.city__cart_user {
+    display: flex;
+    align-items: center;
+}
+.city__navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation__point {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.city__text {
+    width: 256px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cart {
+    width: 40px;
+    height: 40px;
+}
+.user {
+    width: 38px;
+    height: 40px;
+    margin-right: 80px;
+    margin-left: 22px;
+}
+/* ----------MAIN---------- */
+main {
+    display: flex;
+}
+/* ----------MAIN-left---------- */
+.left__section {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.block__pc_cards {
+    width: 1040px;
+    height: 550px;
+    border-radius: 20px;
+    background: #272727;
+}
+.header__all_pc {
+    display: flex;
+}
+.header__block_pc {
+    color: #467AFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.all__pc {
+    color: #767676;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 185px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.pc__card {
+    display: inline-flex;
+    width: 280px;
+    height: 558px;
+    margin-left: 47px;
+}
+.pc__img {
+    position: absolute;
+    z-index: 2;
+    width: 255px;
+    height: 255px;
+    margin-left: 12px;
+}
+.card {
+    position: absolute;
+    color: #FFF;
+    width: 280px;
+    height: 499px;
+    border-radius: 20px;
+    background: #333;
+    margin-top: 59px;
+    box-shadow: -6px -3px 25px 0px rgba(0, 0, 0, 0.10), 6px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+.name__pc {
+    margin-top: 211px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.price__pc {
+    text-align: center;
+    color: #467AFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.line__under_price {
+    color: #FFF;
+    size: 1px;
+    margin-top: 15px;
+}
+.info__cgr {
+    margin-top: 25px;
+    height: 30px;
+    margin-left: 29px;
+    display: flex;
+    align-items: center;
+}
+.text__info_cgr {
+    display: inline-flex;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+/* ----------MAIN-right---------- */
+.right__section {
+    width: 40%;
+    margin-left: 40px;
+}
+.block__top {
+    width: 640px;
+    height: 370px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background: #1E1E1E;
+    box-shadow: 0px 98px 100px -48px rgba(53, 64, 160, 0.30) inset,
+    0px 4px 18px 0px rgba(0, 56, 255, 0.30) inset,
+    0px 1px 40px 0px rgba(0, 10, 255, 0.20) inset,
+    0px -9px 56px -22px rgba(255, 255, 255, 0.45) inset,
+    0px 8px 11px 5px rgba(255, 255, 255, 0.20) inset,
+    0px -82px 68px -64px rgba(17, 35, 201, 0.30) inset;
+    backdrop-filter: blur(50px);
+}
+.text__top_block {
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFF;
+    width: 443px;
+    height: 210px;
+    margin-left: 20px;
+}
+.text__configurate {
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 52px;
+    margin-left: 20px;
+}
+.img__top_block {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+.block__bottom {
+    width: 640px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 25px;
+    border-radius: 20px;
+    color: #FFF;
+    background: #1E1E1E;
+    box-shadow: 0px -98px 100px -48px rgba(53, 64, 160, 0.30) inset,
+    0px -4px 18px 0px rgba(0, 56, 255, 0.30) inset,
+    0px -1px 40px 0px rgba(0, 10, 255, 0.20) inset,
+    0px -9px 56px -22px rgba(255, 255, 255, 0.45) inset,
+    0px 8px 11px 5px rgba(255, 255, 255, 0.20) inset,
+    0px 82px 68px -64px rgba(17, 35, 201, 0.30) inset;
+    backdrop-filter: blur(50px);
+}
+.header__block_feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.stars {
+    width: 154.268px;
+    height: 25.309px;
+}
+.text__feedback {
+    width: 580px;
+    height: 146px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.feedback__switches {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    height: 5px;
+    margin-top: 10px;
+}
+.switch {
+    border: none;
+    width: 185.294px;
+    height: 5px;
+    border-radius: 10px;
+}
+.active {
+    background: #484A80;
+}
+.passive {
+    background: #2F3042;
+}
+
+/* ----------FOOTER---------- */
